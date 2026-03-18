@@ -1,0 +1,133 @@
+.left{
+    display: flex;
+    gap:10px;
+    list-style: none;
+    height: 10vh;
+    width:20vw;
+    margin-left: 5px;
+}
+.right{
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+    list-style:none ;
+    height:10vh;
+    width:1vw;
+    margin-right: 20px;
+}
+.main{
+    display: flex;
+    justify-content: space-between;
+     /* background-color: wheat;  */
+     height:10vh;
+     width:98vw;
+
+}
+.name{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: fixed;
+    margin-top: 2px;
+    height: 70vh;
+    width:98vw;
+     /* background-color: aqua;  */
+    
+}
+.buttons{
+    margin-top:20px;
+
+}
+.btn{
+    margin: 10px;
+    border-radius:10px;
+    height:35px ;
+    width:150px ;
+}
+.search{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border:1px solid black;
+    border-radius:50px;
+    background-color: white;
+    margin-top:20px;
+    padding-right:20px ;
+    padding-left:10px ;
+
+}
+
+.search input{
+
+    height:49px ;
+    width:760px;
+    outline:none;
+    border:none;
+
+}
+.btn1{
+    background-color: white;
+    border:none;
+    
+}
+.btn2{
+    background-color: white;
+    border:none;
+}
+.btn3{
+    background-color: white;
+    border:none;
+}
+
+.btn4{
+    background-color: white;
+    border:2px solid gray;
+    height:20px;
+  
+    border-radius: 10px;
+}
+
+.google{
+    margin-top: -85px;
+}
+
+.footer{
+    display:flex;
+    justify-content: flex-start;
+    list-style:none ;
+    margin-left: 0%;
+    
+}
+.footer2{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style:none ;
+    /* background-color: lightgreen; */
+    margin: 0;
+    padding: 0;
+    
+}
+.footer2 ul{
+    display:flex;
+    gap:10px;
+    padding: 0;
+    list-style-type: none;
+   
+}
+
+.footer3{
+    display:flex;
+    list-style: none;
+
+}
+.footer3 ul{
+    list-style-type: none;
+    bottom:0%;
+    gap:20px;
+    display:flex;
+    margin-left: 0px;
+}
+
+
